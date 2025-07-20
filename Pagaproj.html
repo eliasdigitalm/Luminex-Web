@@ -1,0 +1,265 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luminex Web Design</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Luminex</h1>
+      <nav>
+        <a href="#sobre">Sobre mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#porqueyo">¿Por qué elegirme?</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Diseño de páginas web profesionales</h2>
+      <p>Creá tu sitio moderno, rápido y único. ¡Destacá con Luminex!</p>
+      <a href="#contacto" class="btn">Quiero mi página</a>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <h3>Sobre mí</h3>
+      <p>Mi nombre es Elías. Soy diseñador web enfocado en crear páginas únicas, modernas y funcionales. Ayudo a personas y negocios a tener presencia digital profesional.</p>
+    </div>
+  </section>
+
+  <section id="servicios" class="servicios">
+    <div class="container">
+      <h3>Servicios</h3>
+      <ul>
+        <li><span class="icon">💻</span> Diseño Web Profesional</li>
+        <li><span class="icon">📱</span> Páginas móviles ultra-adaptadas</li>
+        <li><span class="icon">🛒</span> Portfolio, tiendas y más</li>
+        <li><span class="icon">🤝</span> Asesoramiento personalizado</li>
+        <li><span class="icon">🔄</span> Mantenimiento y actualizaciones</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="porqueyo" class="porqueyo">
+    <div class="container">
+      <h3>¿Por qué elegirme?</h3>
+      <p>✅ Atención directa conmigo<br>
+         ✅ Diseño a medida, sin plantillas básicas<br>
+         ✅ Webs que funcionan, cargan rápido y venden<br>
+         ✅ Vas a destacar entre la competencia</p>
+    </div>
+  </section>
+
+  <section id="testimonios" class="testimonios">
+    <div class="container">
+      <h3>Testimonios</h3>
+      <div class="testimonial">
+        <p>"Elías entendió justo lo que quería. Mi página quedó increíble."</p>
+        <span>- Martín G.</span>
+      </div>
+      <div class="testimonial">
+        <p>"Rápido, profesional y atento. Lo recomiendo 100%."</p>
+        <span>- Carla R.</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <div class="container">
+      <h3>Contacto</h3>
+      <p>Escribime directo por WhatsApp para pedir tu sitio:</p>
+      <a href="https://wa.me/5491125322800?text=Hola%20Elías%2C%20quiero%20una%20página%20web%20profesional" target="_blank" class="btn-wpp">📱 Escribime al +54 9 11 2532 2800</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Luminex Web Design - Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html><style>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 1rem 0;
+  border-bottom: 1px solid #333;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  color: #00aaff;
+  font-size: 1.8rem;
+}
+
+nav a {
+  color: #a8d8ff;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00aaff;
+}
+
+.hero {
+  background: linear-gradient(to bottom right, #071e3d, #1f4287);
+  padding: 6rem 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #d3d3d3;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #00aaff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #0090dd;
+}
+
+.servicios, .contacto, .sobre, .porqueyo, .testimonios {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.servicios h3, .contacto h3, .sobre h3, .porqueyo h3, .testimonios h3 {
+  color: #00aaff;
+  margin-bottom: 1rem;
+}
+
+.servicios ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.servicios li {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.btn-wpp {
+  display: inline-block;
+  background-color: #25d366;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 1rem;
+  transition: background 0.3s;
+}
+
+.btn-wpp:hover {
+  background-color: #1ebe5d;
+}
+
+.testimonial {
+  background-color: #1a1a1a;
+  border-left: 5px solid #00aaff;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-style: italic;
+  color: #ccc;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #00aaff;
+}
+
+footer {
+  background-color: #111;
+  color: #666;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+/* 📱 Diseño responsive para celulares */
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .btn, .btn-wpp {
+    width: 100%;
+    display: block;
+  }
+}</style><script>// Luminex Web Design
+console.log("Sitio cargado correctamente.");</script>
